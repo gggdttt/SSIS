@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright(c)2019-
+  ~    项目名称:SSIS
+  ~    文件名称:bottom_nav_menu.xml
+  ~    Date:19-6-3 下午9:04
+  ~    Author:Fanwj
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_punch"
+        android:icon="@drawable/ic_punch"
+        android:title="打卡" />
+
+    <item
+        android:id="@+id/navigation_spending"
+        android:icon="@drawable/ic_spending"
+        android:title="记账" />
+
+    <item
+        android:id="@+id/navigation_mapping"
+        android:icon="@drawable/ic_chrome"
+        android:title="浏览" />
+    <item
+        android:id="@+id/navigation_personInfo"
+        android:icon="@drawable/ic_person_info"
+        android:title="我的信息"/>
+</menu>

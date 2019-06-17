@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright(c)2019-
+  ~    项目名称:SSIS
+  ~    文件名称:attrs.xml
+  ~    Date:19-6-3 下午9:04
+  ~    Author:Fanwj
+  -->
+
+<resources>
+
+    <declare-styleable name="drawableText">
+        <attr name="leftDrawable" format="reference|integer" />
+        <attr name="rightDrawable" format="reference|integer" />
+        <attr name="topDrawable" format="reference|integer" />
+        <attr name="bottomDrawable" format="reference|integer" />
+        <attr name="drawableWidth" format="dimension" />
+        <attr name="drawableHeight" format="dimension" />
+    </declare-styleable>
+</resources>

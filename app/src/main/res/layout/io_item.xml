@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright(c)2019-
+  ~    项目名称:SSIS
+  ~    文件名称:io_item.xml
+  ~    Date:19-6-4 下午2:01
+  ~    Author:Fanwj
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/date_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/main_dot"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/dot"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/iotem_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/colorSlateGray"
+            android:layout_toStartOf="@id/main_dot"
+            android:layout_marginEnd="27dp"/>
+
+    </RelativeLayout>
+
+    <!-- 主界面收入显示 -->
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/earn_left_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <ImageView
+            android:id="@+id/earn_item_img_main"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            app:layout_widthPercent="8%"
+            android:scaleType="fitCenter"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/earn_item_money_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/earn_item_img_main"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/page1_recycler_top"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorSlateGray"
+            android:layout_toLeftOf="@id/earn_item_img_main"
+            android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:id="@+id/earn_item_name_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/earn_item_money_main"
+            android:layout_marginEnd="@dimen/text_gap"
+            android:layout_marginTop="@dimen/page1_recycler_top"
+            android:textColor="@color/colorSlateGray" />
+
+        <TextView
+            android:id="@+id/earn_item_decription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/earn_item_money_main"
+            android:layout_alignEnd="@id/earn_item_money_main"
+            android:textSize="13sp"
+            android:textColor="@color/colorLightGray"
+            android:background="@null"/>
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <!-- 主界面支出显示 -->
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/cost_right_layout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <ImageView
+            android:id="@+id/cost_item_img_main"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            app:layout_widthPercent="8%"
+            android:scaleType="fitCenter"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/cost_item_name_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cost_item_img_main"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/page1_recycler_top"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorSlateGray" />
+
+        <TextView
+            android:id="@+id/cost_item_money_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cost_item_name_main"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/text_gap"
+            android:layout_marginTop="@dimen/page1_recycler_top"
+            android:textColor="@color/colorSlateGray" />
+
+        <TextView
+            android:id="@+id/cost_item_decription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cost_item_name_main"
+            android:layout_alignStart="@id/cost_item_name_main"
+            android:textSize="13sp"
+            android:textColor="@color/colorGray"
+            android:background="@null"/>
+
+    </android.support.percent.PercentRelativeLayout>
+
+</LinearLayout>

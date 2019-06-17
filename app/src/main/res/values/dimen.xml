@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright(c)2019-
+  ~    项目名称:SSIS
+  ~    文件名称:dimen.xml
+  ~    Date:19-6-4 下午2:01
+  ~    Author:Fanwj
+  -->
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="text_gap">5dp</dimen>
+    <dimen name="image_text_gap">10dp</dimen>>
+    <dimen name="page1_recycler_top">10dp</dimen>
+</resources>

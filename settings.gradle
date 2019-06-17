@@ -1,0 +1,9 @@
+/*
+ * Copyright(c)2019-
+ *    项目名称:SSIS
+ *    文件名称:settings.gradle
+ *    Date:19-6-3 下午9:04
+ *    Author:Fanwj
+ */
+
+include ':app'

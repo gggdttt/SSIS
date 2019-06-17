@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:suspend="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5DC"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="111"/>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.laocaixw.layout.SuspendButtonLayout
+        android:id="@+id/btn_mapFragment_movable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        suspend:distance="80dp"
+        suspend:imageSize="50dp"
+        suspend:marginY="100dp"
+        suspend:number="2"
+        suspend:imageMainOpen="@drawable/btn_map_back_press"
+        suspend:imageMainClose="@drawable/btn_map_back_nromal"
+        suspend:image1="@drawable/ic_none"
+        suspend:image2="@drawable/ic_none"
+        suspend:image3="@drawable/ic_none"
+        suspend:image4="@drawable/ic_none"
+        suspend:image5="@drawable/ic_none"
+        suspend:image6="@drawable/ic_none" />
+</RelativeLayout>

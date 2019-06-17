@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright(c)2019-
+  ~    项目名称:SSIS
+  ~    文件名称:book_item.xml
+  ~    Date:19-6-4 下午2:00
+  ~    Author:Fanwj
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <ImageView
+        android:id="@+id/book_mark"
+        android:layout_height="19sp"
+        android:layout_width="16sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:background="@drawable/home_detail_btn_n"/>
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>

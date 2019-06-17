@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright(c)2019-
+  ~    项目名称:SSIS
+  ~    文件名称:fragment_punch_item.xml
+  ~    Date:19-6-3 下午9:04
+  ~    Author:Fanwj
+  -->
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_marginTop="10dp"
+>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/iv_punchHeadImage"
+            android:src="@drawable/userimage"
+            android:contentDescription="@string/userHeadImage" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/tv_punchUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="南京工程学院-xBai"
+                android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_punchType"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="学习打卡"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_marginLeft="160dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Level:"
+                android:textSize="20sp"
+                android:layout_marginStart="160dp" />
+            <TextView
+                android:id="@+id/tv_punchUserLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/draw_border">
+        <TextView
+
+            android:id="@+id/tv_punchContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="android 为TextView添加边框 - 星辰之力 - 博客园
+2019年4月1日 - android 为TextView添加边框 今天需要在TextView上面添加一个边框,但是TextView本身不支持边框,所以只能采用其他方式,在网上查询了一下,主要有三种方...
+https://www.cnblogs.com/zhujia...  - 百度快照"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="发布时间："
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/tv_punchTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="2019-5-31 18:05"
+        android:textColor="#C9C5C5"
+        />
+
+    <ImageView
+        android:id="@+id/iv_punchPrefer"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/prefer_normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="35dp"
+        android:paddingLeft="35dp"
+        android:textColor="#2196F3"
+        android:text="回复"
+        android:id="@+id/punch_reply"/>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/punchCommentList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#E2DEDE">
+
+
+
+    </LinearLayout>
+</LinearLayout>

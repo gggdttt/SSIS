@@ -1,0 +1,14 @@
+<!--
+  ~ Copyright(c)2019-
+  ~    项目名称:SSIS
+  ~    文件名称:ic_none.xml
+  ~    Date:19-6-3 下午9:46
+  ~    Author:Fanwj
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+</vector>

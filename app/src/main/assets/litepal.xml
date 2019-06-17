@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright(c)2019-
+  ~    项目名称:SSIS
+  ~    文件名称:litepal.xml
+  ~    Date:19-6-4 下午2:18
+  ~    Author:Fanwj
+  -->
+
+<litepal>
+    <dbname value="MoneyCount"></dbname>
+    <version value="1"></version>
+    <list>
+        <mapping class="com.fwj.ssis.fragment.spengding.model.IOItem"></mapping>
+        <mapping class="com.fwj.ssis.fragment.spengding.model.BookItem"></mapping>
+    </list>
+</litepal>
